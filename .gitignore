@@ -5,3 +5,13 @@
 */Intermediate
 */Saved
 BuildingEscape/Content/StarterContent
+
+
+#VS items
+*VC.db
+*.suo
+*.VC.opendb
+*.sln
+*ipch
+BuildingEscape/.vs/BuildingEscape/v15
+BuildingEscape/.vs/BuildingEscape/v16
