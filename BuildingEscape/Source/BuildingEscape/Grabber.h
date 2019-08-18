@@ -32,7 +32,6 @@ public:
 
 private:
 	float Reach = 100.f; // Reach of Ray Cast of Player
-
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 	UInputComponent* InputComponent = nullptr;
 
@@ -47,7 +46,11 @@ private:
 	void FindPhysicsComponent();
 
 	//Return hit for first physics body in reach
-	FHitResult GetFirstPhysicsBodyInReach() const;
+	const FHitResult GetFirstPhysicsBodyInReach();
 
-		
+	// Retunrs current end of reach line
+	FVector GetLineTraceEnd();
+
+	FVector GetLineTraceStart();
+	
 };
