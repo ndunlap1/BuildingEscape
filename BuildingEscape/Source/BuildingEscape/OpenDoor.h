@@ -41,7 +41,9 @@ private:
 	float DoorCloseDelay = 1.f;
 
 	float LastDoorOpenTime;
-	AActor* ActorThatOpens; //Remember opawn inherits from actor
+
+	float GetTotalMassOfActorsOnPlate();
+
 	AActor* Owner;
 
 		
